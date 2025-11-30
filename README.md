@@ -10,10 +10,15 @@ Features • Installation • Usage • Deployment
 
 🎨 Theme Preview
 ┌─────────────────────────────────────────┐
+
 │  ✨ Gold Metallic (#D4AF37)            │
+
 │  🖤 Deep Black (#0A0A0A)               │
+
 │  💎 Luxurious Gradients                │
+
 │  ✨ Metallic Shine Effects             │
+
 └─────────────────────────────────────────┘
 
 ✨ Features
@@ -63,58 +68,111 @@ CategoryTechnologyFrameworkReact 18+Build ToolViteUI LibraryMaterial-UI (MUI) 5.
 📁 Project Structure
 hms-frontend/
 ├── src/
-│   ├── api/                      # API service layer
+
+│   ├── api/  # API service layer
+
 │   │   ├── axiosConfig.js        # Axios configuration
+
 │   │   ├── authService.js        # Auth endpoints
+
 │   │   ├── patientService.js     # Patient endpoints
+
 │   │   ├── prescriptionService.js
+
 │   │   └── userService.js
+
 │   ├── components/
+
 │   │   ├── common/               # Reusable components
+
 │   │   │   ├── Navbar.jsx
+
 │   │   │   ├── Sidebar.jsx
+
 │   │   │   └── LoadingSpinner.jsx
+
 │   │   ├── forms/                # Form components
+
 │   │   └── tables/               # Table components
+
 │   ├── layouts/
+
 │   │   ├── MainLayout.jsx        # Main app layout
+
 │   │   └── AuthLayout.jsx        # Auth pages layout
+
 │   ├── pages/
+
 │   │   ├── auth/                 # Auth pages
+
 │   │   │   ├── Login.jsx
+
 │   │   │   ├── Register.jsx
+
 │   │   │   └── ForgotPassword.jsx
+
 │   │   ├── dashboard/
+
 │   │   │   └── Dashboard.jsx
+
 │   │   ├── patients/
+
 │   │   │   ├── PatientList.jsx
+
 │   │   │   ├── RegisterPatient.jsx
+
 │   │   │   └── PatientDetails.jsx
+
 │   │   ├── prescriptions/
+
 │   │   └── users/
+
 │   ├── redux/
+
 │   │   ├── store.js              # Redux store
+
 │   │   └── slices/
+
 │   │       ├── authSlice.js
+
 │   │       ├── patientSlice.js
+
 │   │       └── uiSlice.js
+
 │   ├── routes/
+
 │   │   ├── AppRoutes.jsx         # Route definitions
+
 │   │   ├── PrivateRoute.jsx      # Protected routes
+
 │   │   └── routes.config.js      # Navigation config
+
 │   ├── theme/
+
 │   │   └── theme.js              # MUI theme config
+
 │   ├── utils/
+
 │   │   ├── constants.js          # App constants
+
 │   │   ├── helpers.js            # Helper functions
+
 │   │   └── validators.js         # Form validators
+
 │   ├── App.jsx
+
 │   ├── main.jsx
+
 │   └── index.css
+
 ├── .env                          # Environment variables
+
 ├── .env.production
+
 ├── vite.config.js
+
 └── package.json
+
 
 🚀 Installation
 Prerequisites
